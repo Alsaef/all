@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment</title>
+    <style>
+        .flex{
+            display: flex;
+           
+        }
+    </style>
+</head>
+<body>
+   <h1>add your comment</h1> 
+   <div id="text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusamus quibusdam consequuntur aliquam doloribus, est voluptatem adipisci expedita ipsum numquam?</p>
+    <p>Omnis iure eos inventore voluptas dolore tempore nobis! Velit, quo. Nihil voluptate unde ipsa cum nobis doloribus quasi qui suscipit!</p>
+    <p>Repudiandae, iusto necessitatibus error voluptatum quod velit veritatis quisquam eligendi reprehenderit perspiciatis inventore cupiditate, tempore illum suscipit, unde iure non.</p>
+   </div>
+  <div class="flex">
+ <textarea name="" id="new-comment" cols="60" rows="2"></textarea>
+ <button id="btn-post">Comment</button>
+  </div>
+  <script>
+    document.getElementById("btn-post").addEventListener("click",function () {
+        const inputCommnet=document.getElementById("new-comment");
+        const inputValue=inputCommnet.value;
+        console.log(inputValue);
+        const container=document.getElementById("text")
+       const p=document.createElement("p")
+       p.innerText=inputValue;
+      container.appendChild(p);
+      inputCommnet.value=" "
+    })
+  </script>
+</body>
+</html>
