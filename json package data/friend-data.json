@@ -1,0 +1,30 @@
+{
+    "friends":[
+{
+    "name":"ataul",
+    "age":19,
+    "collage":"B.B.P.I"
+
+},
+{
+    "name":"ratul",
+    "age":20,
+    "collage":"B.B.P.I"
+
+}
+],
+    "student":[
+{
+    "name":"ataul",
+    "age":19,
+    "collage":"B.B.P.I"
+
+},
+{
+    "name":"ratul",
+    "age":20,
+    "collage":"B.B.P.I"
+
+}
+]
+}

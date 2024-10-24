@@ -1,0 +1,28 @@
+{
+    "student": [
+        {
+            "name": "ratul",
+            "language": [
+                "bangal",
+                "english",
+                "hindi"
+            ]
+        },
+        {
+            "name": "ataul",
+            "language": [
+                "bangal",
+                "english",
+                "hindi"
+            ]
+        },
+        {
+            "name": "twsif",
+            "language": [
+                "bangal",
+                "english",
+                "hindi"
+            ]
+        }
+    ]
+}
